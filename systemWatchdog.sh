@@ -1,6 +1,7 @@
 #!/bin/bash
 # This is a simple system check specifically meant for a Raspberry Pi
-
+# This script can take in an input to log the data. That input has to be "-log"
+# If the input is -log , the program will create a file called testResults.txt
 # This checks to see if any input values have been added to the script
 if [ $# -gt 0 ]
 then
